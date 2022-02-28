@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">GreenBox</string>
+    <string name="welcome_text">Hello there! This is a test</string>
+    <string name="activate_rfid_and_scan_the_greenbox_for_your_distance_and_emission_readings">Activate RFID and scan the GreenBox for your distance and emission readings</string>
+    <string name="testText">Default Text</string>
+</resources>
