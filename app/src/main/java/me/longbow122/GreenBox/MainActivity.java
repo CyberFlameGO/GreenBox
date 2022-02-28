@@ -8,6 +8,7 @@ import android.os.Bundle;
 
 public class MainActivity extends AppCompatActivity {
     private TextView message;
+    // Test comment
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
