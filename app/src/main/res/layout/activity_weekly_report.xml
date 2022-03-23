@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".WeeklyReportActivity"
+        android:background="@drawable/background_weekly_report">
+
+    <ImageView
+            android:src="@drawable/weekly_report"
+            android:layout_width="97dp"
+            android:layout_height="95dp"
+            android:id="@+id/weeklyreport_weeklyReport"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="16dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginBottom="42dp"
+            android:contentDescription="@string/tap_button_to_view_weekly_reports_ftom_your_greenbox"/>
+
+    <ImageView
+            android:src="@drawable/home_button"
+            android:layout_width="108dp"
+            android:layout_height="100dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:id="@+id/weeklyreport_homeButton"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginBottom="37dp"
+            android:contentDescription="@string/main_home_button_for_the_greenbox_application"/>
+
+    <ImageView
+            android:src="@drawable/leaderboard_button"
+            android:layout_width="106dp"
+            android:layout_height="89dp"
+            android:id="@+id/weeklyreport_leaderboard"
+            android:layout_marginEnd="16dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginBottom="48dp"
+            android:contentDescription="@string/tap_to_view_leaderboards_for_greenbox_results_are_temporarily_faked_until_real_statistics_can_be_gotten"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
