@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                                   xmlns:app="http://schemas.android.com/apk/res-auto"
+                                                   xmlns:tools="http://schemas.android.com/tools"
+                                                   android:theme="@style/ThemeOverlay.GreenBox.FullscreenContainer"
+                                                   android:layout_width="match_parent"
+                                                   android:layout_height="match_parent"
+                                                   tools:context=".MainGUIActivity"
+                                                   android:id="@+id/frameLayout"
+                                                   android:contentDescription="@string/activate_rfid_and_scan_the_greenbox_for_your_distance_and_emission_readings"
+                                                   android:background="@drawable/background_home">
+
+    <ImageView
+            android:layout_width="96dp"
+            android:layout_height="95dp"
+            app:srcCompat="@drawable/home_button"
+            android:id="@+id/homeButton"
+            android:contentDescription="@string/main_home_button_for_the_greenbox_application"
+            tools:ignore="RedundantDescriptionCheck,ImageContrastCheck"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="148dp"
+            android:layout_marginEnd="149dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginBottom="40dp"/>
+
+    <ImageView
+            android:layout_width="91dp"
+            android:layout_height="91dp"
+            app:srcCompat="@drawable/weekly_report"
+            android:id="@+id/weeklyReportButton"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginBottom="40dp"
+            android:layout_marginStart="16dp"
+            android:contentDescription="@string/tap_button_to_view_weekly_reports_ftom_your_greenbox"
+            tools:ignore="RedundantDescriptionCheck,ImageContrastCheck"/>
+
+    <ImageView
+            android:layout_width="102dp"
+            android:layout_height="97dp"
+            app:srcCompat="@drawable/leaderboard_button"
+            android:id="@+id/leaderboardButton"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginBottom="36dp"
+            android:layout_marginEnd="16dp"
+            android:contentDescription="@string/tap_to_view_leaderboards_for_greenbox_results_are_temporarily_faked_until_real_statistics_can_be_gotten"
+            tools:ignore="RedundantDescriptionCheck"/>
+
+    <TextView
+            android:text="666 mi"
+            android:layout_width="85dp"
+            android:layout_height="51dp"
+            android:id="@+id/milesTravelled"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="28dp"
+            android:layout_marginBottom="56dp"
+            app:layout_constraintBottom_toTopOf="@+id/weeklyReportButton"
+            android:textSize="24sp"
+            android:textColor="@color/teal_200"/>
+
+    <TextView
+            android:text="5 min"
+            android:layout_width="71dp"
+            android:layout_height="63dp"
+            android:id="@+id/idleTime"
+            android:layout_marginEnd="32dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginBottom="44dp"
+            app:layout_constraintBottom_toTopOf="@+id/leaderboardButton"
+            android:textSize="24sp"
+            android:textColor="@color/teal_200"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

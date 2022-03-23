@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="share_button_to_share_your_greenbox_scores_with_friends">Share button to share your GreenBox scores with friends</string>
+    <string name="main_home_button_for_the_greenbox_application">Main home button for the GreenBox application</string>
+    <string name="tap_button_to_view_weekly_reports_ftom_your_greenbox">Tap button to view weekly reports ftom your GreenBox</string>
+</resources>

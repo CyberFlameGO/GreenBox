@@ -3,7 +3,14 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/dhruv/school-workspace/GreenBox/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.22763157894736843" />
+        <entry key="..\:/Users/dhruv/school-workspace/GreenBox/app/src/main/res/drawable/ic_launcher_background.xml" value="0.22763157894736843" />
+        <entry key="..\:/Users/dhruv/school-workspace/GreenBox/app/src/main/res/layout/activity_leaderboard.xml" value="0.4" />
         <entry key="..\:/Users/dhruv/school-workspace/GreenBox/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/dhruv/school-workspace/GreenBox/app/src/main/res/layout/activity_main_guiactivity.xml" value="0.264" />
+        <entry key="..\:/Users/dhruv/school-workspace/GreenBox/app/src/main/res/layout/activity_weekly_report.xml" value="0.2" />
+        <entry key="..\:/Users/dhruv/school-workspace/GreenBox/app/src/main/res/mipmap-anydpi-v26/backgroundPng.xml" value="0.10877192982456141" />
+        <entry key="..\:/Users/dhruv/school-workspace/GreenBox/app/src/main/res/mipmap-anydpi-v26/share_button.xml" value="0.10877192982456141" />
       </map>
     </option>
   </component>

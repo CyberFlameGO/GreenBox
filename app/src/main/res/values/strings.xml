@@ -3,4 +3,9 @@
     <string name="welcome_text">Hello there! This is a test</string>
     <string name="activate_rfid_and_scan_the_greenbox_for_your_distance_and_emission_readings">Activate RFID and scan the GreenBox for your distance and emission readings</string>
     <string name="testText">Default Text</string>
+    <string name="share_button_to_share_your_greenbox_scores_with_friends">Share button to share your GreenBox scores with friends</string>
+    <string name="title_activity_main_guiactivity">MainGUIActivity</string>
+    <string name="main_home_button_for_the_greenbox_application">Main home button for the GreenBox application</string>
+    <string name="tap_button_to_view_weekly_reports_ftom_your_greenbox">Tap button to view weekly reports ftom your GreenBox</string>
+    <string name="tap_to_view_leaderboards_for_greenbox_results_are_temporarily_faked_until_real_statistics_can_be_gotten">Tap to view leaderboards for GreenBox. Results are temporarily faked until real statistics can be gotten</string>
 </resources>
