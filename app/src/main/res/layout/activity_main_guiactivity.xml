@@ -50,7 +50,7 @@
             tools:ignore="RedundantDescriptionCheck"/>
 
     <TextView
-            android:text="666 mi"
+            android:text="0.67 mi"
             android:layout_width="85dp"
             android:layout_height="51dp"
             android:id="@+id/milesTravelled"
